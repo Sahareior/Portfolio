@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lekton:ital,wght@0,400;0,700;1,400&family=Rakkas&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.lekton1 {
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lekton2 {
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lekton3 {
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  

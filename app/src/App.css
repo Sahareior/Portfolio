@@ -1,0 +1,25 @@
+/* App.css */
+.wheel-out {
+    transition: transform 0.5s ease;
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  
+  .wheel-in {
+    transition: transform 0.5s ease;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  
+  .container {
+    position: relative;
+    perspective: 1000px; /* Gives the 3D effect */
+  }
+  
+  .component {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Prevents the back side of the component from showing */
+  }
+  
